@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="9.0"
+id="346dcf88-3e03-43c9-b8f0-404e1960690b"
+embeddedrepository="true"
+mode="Global">
+  <name>
+    MainRecording
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen
+	classname="MainRecording"
+	namespace="aqua.UntitledNamespace2961"/>
+  <variables/>
+  <recorditems/>
+  <repository
+	name="MainRecordingRepository"
+	id="bbc7e263-7ad2-4527-bb5a-2bb47b55e98b"
+	rxversion="9.0">
+    <codegen
+		classname="MainRecordingRepository"
+		namespace="aqua.UntitledNamespace2961"/>
+    <rootfolder
+		name="Root"
+		id="ea287554-6ceb-4edf-84bc-8b6ef276aacb"
+		searchtimeout="0ms"
+		capname="unknown"
+		isrooted="True"
+		usecache="True">
+      <basepath/>
+    </rootfolder>
+    <variables/>
+  </repository>
+  <usercodefile
+	lang="CSharp">
+    MainRecording.UserCode.cs
+  </usercodefile>
+  <references/>
+</recordtable>
